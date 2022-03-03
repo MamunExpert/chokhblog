@@ -14,7 +14,6 @@
     color: rgb(238, 255, 0);
 }
 
-
 .catgory a{
     text-decoration: none;
     color: white;
@@ -41,6 +40,23 @@
 
 }
 
+            /*    About        */ 
+
+
+#about:hover{
+    background-color: yellow;
+    color: blue;
+    text-shadow: none;
+    border: 3px solid red;
+    padding: 5px;
+}
+
+.slogan:hover{
+    background-color: yellow;
+    color: blue;
+    font-size: larger;  
+}
+
 .who{
     text-align: center;
     width: 50%;
@@ -51,6 +67,14 @@
     padding: 20px;
     border: 15px solid red;
     border-radius: 0px 50px 0px 50px ;
+}
+
+.who:hover{
+    background-color: rgb(0, 13, 88);
+    border: 15px solid blue;
+    border-radius: 50px 0px 50px 0px;
+
+
 }
 .saiz{
     font-size: 250%;
@@ -83,17 +107,50 @@
     background-color: rgb(143, 238, 255);
 }
 
-.jump{
+.logo{
+    margin-bottom: 0%;
     text-align: center;
-    float: none;
-}
-
-.jump2{
-    color: red;
     font-size: 200%;
-    background-color: yellow;
+    text-shadow: 2px white;
 }
 
-.nmbr{
-    font-size: 180%;
+#bodi{
+    background-color: rgb(177, 250, 255);
+
+}
+
+      /*   Footer     */
+
+
+#futar{
+    background-color :white;
+    text-align: center;
+    overflow: hidden;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+}
+
+#futar:hover{
+    background-color: red;
+    color: white;
+}
+
+#futar a:hover{
+    color: yellow;
+}
+
+#futar a{
+    text-decoration: none;
+    float: none;
+
+}
+
+.kontakt{
+    width: 40%;
+    background-color: blue;
+    color: white;
+    padding: 2px;
+    float: left;
+    border: 5px 5px solid red;
+    border-radius: 5px;
 }
