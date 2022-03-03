@@ -146,11 +146,51 @@
 }
 
 .kontakt{
-    width: 40%;
-    background-color: blue;
-    color: white;
-    padding: 2px;
+    background-color: rgb(2, 0, 37);
+    text-align: center;
+    width: 45%;
     float: left;
-    border: 5px 5px solid red;
-    border-radius: 5px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+    border-color: yellow;
+    border-radius: 20px;
+    height: 400px;
+}
+
+.kontakt input:focus{
+    background-color: yellow;
+    color:  rgb(2, 0, 37);
+    font-size: x-large;
+    padding: 10px;
+}
+
+.kontakt textarea:focus{
+    background-color: yellow;
+    width: 70%;
+    color:  rgb(2, 0, 37);
+    font-size: x-large;
+    padding: 10px;
+}
+
+.map{
+    text-align: center;
+}
+
+.kalar{
+    color: yellow;
+    font-size: 200%;
+}
+
+.kalar:hover{
+    background-color: yellow;
+    color: black;
+}
+
+#social a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+
 }
